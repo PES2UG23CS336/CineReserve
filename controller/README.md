@@ -38,7 +38,7 @@ The `MovieController` and `ShowController` handle all HTTP requests related to m
 Client -> Controller -> Service -> Repository -> Database -> Response
 
 ### Notes
-
+* This contoller is for MVC only
 * No business logic is implemented in controllers
 * Controllers only handle request/response flow
 * Ensures clean separation of concerns and maintainability
